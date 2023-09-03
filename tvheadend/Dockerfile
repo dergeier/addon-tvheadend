@@ -42,13 +42,13 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="Gautham Varma K <43441192+GauthamVarmaK@users.noreply.github.com>" \
+    maintainer="Maximiliano Geier <mgeier@dc.uba.ar>" \
     org.opencontainers.image.title="${BUILD_NAME}" \
     org.opencontainers.image.description="${BUILD_DESCRIPTION}" \
-    org.opencontainers.image.vendor="GauthamVarmaK" \
-    org.opencontainers.image.authors="Gautham Varma K <43441192+GauthamVarmaK@users.noreply.github.com>" \
+    org.opencontainers.image.vendor="mgeier" \
+    org.opencontainers.image.authors="Maximiliano Geier <mgeier@dc.uba.ar>" \
     org.opencontainers.image.licenses="MIT" \
-    org.opencontainers.image.url="https://github.com/GauthamVarmaK/addon-tvheadend" \
+    org.opencontainers.image.url="https://github.com/dergeier/addon-tvheadend" \
     org.opencontainers.image.source="https://github.com/${BUILD_REPOSITORY}" \
     org.opencontainers.image.documentation="https://github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
